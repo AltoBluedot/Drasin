@@ -6,10 +6,10 @@
         Bartosz Kostarczyk
         Mateusz Mazurczak
 */
-    $servername = "sql.server106109.nazwa.pl";
-    $username = "server106109_drasin";
-    $password = "Szuberwlustrze123";
-    $dbname = "server106109_drasin";
+    $servername = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
 
 
     $conn = new mysqli($servername, $username, $password, $dbname);
