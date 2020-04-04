@@ -1,0 +1,144 @@
+BODY {
+	margin: 0px;
+	padding: 0px;
+	
+	font-family: Quicksand, sans-serif;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    
+    transition: 0.2s;
+    
+	height: 100vh;
+	
+	//overflow: hidden;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bgs {
+	position: absolute;
+
+	height: 100vh;
+	min-height: 600px;
+}
+
+#brand {
+	position: absolute;
+	left: 60px;
+	top: 40px;
+	
+	height: 120px;
+}
+
+.okform {
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: #bc3092;
+    transition: 0.2s;
+    
+    position: absolute;
+    
+    right: 30px;
+    top: 40px;
+}
+
+.info1 {
+	margin: 0px;
+	padding-bottom: 0px;
+
+	position: absolute;
+	
+	top: calc(50% - 120px);
+	left: 400px;
+	
+	font-size: 60px;
+	font-weight: 600;
+}
+.info2 {
+	margin: 0px;
+	padding: 0px;
+
+	position: absolute;
+	
+	top: calc(50% + 30px);
+	left: 400px;
+	
+	font-size: 42px;
+	font-weight: 600;
+	
+	padding-right: 60px;
+}
+
+@media only screen and (max-height: 400px) {
+	
+}
+@media only screen and (max-width: 950px) {
+	#bgs {
+		display: none;
+	}
+	#brand {
+		display: none;
+	}
+	
+	.info1 {
+		left: 10px;
+		
+		padding-right: 10px;
+		font-size: 30px;
+	}
+	
+	.info2 {
+		left: 10px;
+		
+		padding-right: 10px;
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 550px) {
+	
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.notransition * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.noview {
+	transform: translate(-50%, -1000%);
+}
+
+a, textarea, input.text, input[type="text"], input[type="button"], input[type="submit"], .input-checkbox {
+    -webkit-appearance: none;
+}
+a:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.spacer {
+	height: 60px;
+	width: 100%;
+}
